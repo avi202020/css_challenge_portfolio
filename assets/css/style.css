@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  background-color: #65696b;
+}
+
+header {
+  background-color: #030303;
+  height: 100%;
+
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
