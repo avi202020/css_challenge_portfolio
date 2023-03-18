@@ -1,52 +1,131 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avadhesh Portfolio</title>
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Avadhesh Mishra</h1>
-    <nav>
-      <ul>
-         <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">My Portfolio</a></li>
-          <li><a href="#contact">Contact Me</a></li>
-          <li><a href="#resume">Resume</a></li>
-      </ul>
-  </nav>
-  </header>
+    <header>
+        <h1>
+            <a>Avadhesh Portfolio</a>
+        </h1>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section class="hero">
+        <img src="./assets/images/avi_photo.JPG" width="15%" height="15%" alt="my-face">
+        <div class="quote">
+            Ask me anything about hot and emerging technologies, I'll have an answer for you.
+        </div>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <section class="about-me">
+        <div class="section-title" id="about-me">
+            <h2>About <br> Me</h2>
+        </div>
+
+        <div class="text">
+            <p>
+                Hi there! My name is Avadhesh Mishra and I hope you've come to this page to see some of my work and learn
+                some more about me.
+                During the day, I work for a popular technology service provider company. In my spare time, I love reading about 
+                technology and watch comedy shows.
+            </p>
+            <p>I love coding and programming and it's one of the reasons I took this class. I am looking forward to
+                expanding my knowledge and being able to create great web pages.</p>
+        </div>
     </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section class="work">
+        <div class="section-title" id="work">
+            <h2>Work</h2>
+        </div>
+
+        <!-- This is where I created the grid container for my work section. -->
+        <div class="work-examples-container">
+            <div class="work-grid-item box1">
+                <a href="https://github.com/avi202020/Travel-App/" target="_blank"><img
+                        src="./assets/images/travel_app.png" alt="code-refactor"></a>
+                <div class="project-name">
+                    <p class="project-title">Travel App</p>
+                    <p class="project-type">HTML/CSS</p>
+                </div>
+            </div>
+            <a href="https://avi202020.github.io/multiplechoice-code-quiz/" target=" _blank">
+                <div class="work-grid-item box2">
+                    <a href="https://github.com/avi202020/multiplechoice-code-quiz" target="_blank"><img
+                            src="./assets/images/quiz_app.png" alt="run-buddy"></a>
+                    <div class="project-name">
+                        <p class="project-title">Quiz Appy</p>
+                        <p class="project-type">HTML/CSS</p>
+                    </div>
+                </div>
+            </a>
+            <div class="work-grid-item box3">
+                <a href="https://github.com/avi202020/Weather-Dashboard/" target="_blank"><img
+                        src="./assets//images/weather_app.png" alt="flash-beats"></a>
+                <div class="project-name">
+                    <p class="project-title">Weather App</p>
+                    <p class="project-type">HTML/CSS/JavaScript</p>
+                </div>
+            </div>
+            <div class="work-grid-item box4">
+                <a href="https://github.com/avi202020/daily-planner-app/" target="_blank"><img src="./assets/images/daily_planner_app.png"
+                        alt="future-project-2"></a>
+                <div class="project-name">
+                    <p class="project-title">Daily Planner App</p>
+                    <p class="project-type">CSS/JavaScript/Node.js/Handlebars</p>
+                </div>
+            </div>
+            <div class="work-grid-item box5">
+                <a href="https://github.com/avi202020/team-profile-generator" target="_blank"><img src="./assets/images/team_profile_generator.png"
+                        alt="future-project-3"></a>
+                <div class="project-name">
+                    <p class="project-title">Team Profile Generator</p>
+                    <p class="project-type">HTML/CSS</p>
+                </div>
+            </div>
+            <div class="work-grid-item box6">
+                <a href="https://github.com/avi202020/Password-Generator" target="_blank"><img src="./assets/images/password_generator.png"
+                        alt="future-project-3"></a>
+                <div class="project-name">
+                    <p class="project-title">Password Generator</p>
+                    <p class="project-type">HTML/CSS</p>
+                </div>
+            </div>            
+        </div>
     </section>
-  </main>
+
+    <section class="contact-me">
+        <div class="section-title" id="contact-me">
+            <h2>Contact <br> Me</h2>
+        </div>
+
+        <div class="text">
+            <ul>
+                <li>(+44) 111-111</li>
+                <li><a href="mailto:avadhesh.cs@gmail.com">avadhesh.cs@gmail.com</a></li>
+                <li><a href="https://github.com/avi202020/" target="_blank">Github</a></li>
+            </ul>
+        </div>
+    </section>
 </body>
 
 </html>
