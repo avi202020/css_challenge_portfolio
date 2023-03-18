@@ -37,9 +37,9 @@ When the page is resized or viewed on various screens and devices then the layou
 
 ### Screenshots
 
-![Screenshot](https://github.com/avi202020/css_challenge_portfolio/css_challenge_portfolio.png/)
+![Screenshot](https://github.com/avi202020/css_challenge_portfolio/blob/main/assets/images/css_challenge_portfolio.png/)
 
-![Screenshot2](https://github.com/avi202020/css_challenge_portfolio/css_challenge_portfolio2.png/)
+![Screenshot2](https://github.com/avi202020/css_challenge_portfolio/blob/main/assets/images/css_challenge_portfolio2.png/)
 
 ## Authors
 
