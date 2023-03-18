@@ -18,3 +18,23 @@ header h1 {
   color: white;
   text-align: center;
 }
+
+nav a {
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #26a4e7;
+  color: black;
+}
+
+h2 {
+  background-color: #030303;
+  color: white;
+
+}
