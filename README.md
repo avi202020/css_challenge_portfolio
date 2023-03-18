@@ -1,7 +1,5 @@
 # css_challenge_portfolio
-CSS Challenge  Portfolio application is being created as part of assignment 2 for bootcamp
-# Work Day Scheduler
-
+CSS Challenge  Portfolio application is being created as part of assignment 2 for bootcamp.
 The purpose of this challenge is to build  own porfolio application in HTML and CSS.
 
 ## Description
