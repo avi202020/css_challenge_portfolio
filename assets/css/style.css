@@ -1,6 +1,6 @@
 :root {
-  --page-color: #c3c3d4;
-  --text-color: #3737bd;
+  --page-color: #dfdfee;
+  --text-color: #0d9ee7;
 }
 
 body {
@@ -62,7 +62,7 @@ header nav ul li a {
 }
 
 .hero img {
-  width: 100%;
+  width: 30%;
 }
 
 .quote {
